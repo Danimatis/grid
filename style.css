@@ -1,0 +1,46 @@
+.tictactoe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 25px;
+}
+
+.box {
+    font-size: 200px;
+    text-align: center;
+}
+
+
+
+.tictactoe :nth-child(2) {
+    border-style: solid;
+    border-top: white;
+    border-bottom: white;
+
+}
+
+.tictactoe :nth-child(4) {
+    border-style: solid;
+    border-left: white;
+    border-right: white;
+}
+
+.tictactoe :nth-child(5) {
+    border-style: solid;
+}
+
+.tictactoe :nth-child(6) {
+    border-style: solid;
+    border-right: white;
+    border-left: white;
+}
+
+.tictactoe :nth-child(8) {
+    border-style: solid;
+    border-bottom: white;
+    border-top: white;
+}
